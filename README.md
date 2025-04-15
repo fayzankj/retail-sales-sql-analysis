@@ -64,7 +64,7 @@ WHERE
 
 A series of SQL queries were crafted to respond to targeted business questions and support strategic decision-making:
 
-1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
+1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05'**:
 ```sql
 SELECT * 
 FROM retail_sales
@@ -111,7 +111,7 @@ FROM retail_sales
 GROUP BY category, gender;
 ```
 
-7. **Write a SQL query to calculate the average sale for each month **:
+7. **Write a SQL query to calculate the average sale for each month**:
 ```sql
 SELECT 
     YEAR(sale_date) AS year,
@@ -121,7 +121,7 @@ FROM retail_sales
 GROUP BY year, month;
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 SELECT customer_id, SUM(total_sale) AS sales 
 FROM retail_sales 
